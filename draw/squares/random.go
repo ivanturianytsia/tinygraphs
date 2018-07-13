@@ -6,7 +6,7 @@ import (
 	"io"
 
 	svg "github.com/ajstarks/svgo"
-	"github.com/taironas/tinygraphs/draw"
+	"github.com/ivanturianytsia/tinygraphs/draw"
 )
 
 // RandomGrid builds a grid image with with x colors selected at random for each quadrant.

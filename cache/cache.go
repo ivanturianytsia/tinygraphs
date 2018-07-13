@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	tgColors "github.com/taironas/tinygraphs/colors"
+	tgColors "github.com/ivanturianytsia/tinygraphs/colors"
 )
 
 func IsCached(w *http.ResponseWriter, r *http.Request, key string, colors []color.RGBA, size int) bool {

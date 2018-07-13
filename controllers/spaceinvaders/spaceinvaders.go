@@ -4,24 +4,18 @@ import (
 	"crypto/md5"
 	"fmt"
 	"io"
-	"log"
 	"net/http"
 
-	"github.com/taironas/route"
-	"github.com/taironas/tinygraphs/cache"
-	"github.com/taironas/tinygraphs/draw/spaceinvaders"
-	"github.com/taironas/tinygraphs/extract"
-	"github.com/taironas/tinygraphs/write"
+	"github.com/gorilla/mux"
+	"github.com/ivanturianytsia/tinygraphs/cache"
+	"github.com/ivanturianytsia/tinygraphs/draw/spaceinvaders"
+	"github.com/ivanturianytsia/tinygraphs/extract"
+	"github.com/ivanturianytsia/tinygraphs/write"
 )
 
 // SpaceInvaders handler for /spaceinvaders/:key
 func SpaceInvaders(w http.ResponseWriter, r *http.Request) {
-	var err error
-	var key string
-	if key, err = route.Context.Get(r, "key"); err != nil {
-		log.Println("Unable to get 'key' value: ", err)
-		key = ""
-	}
+	key := mux.Vars(r)["key"]
 
 	h := md5.New()
 	io.WriteString(h, key)

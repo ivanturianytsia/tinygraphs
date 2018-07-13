@@ -6,7 +6,7 @@ import (
 	"math"
 
 	svg "github.com/ajstarks/svgo"
-	"github.com/taironas/tinygraphs/draw"
+	"github.com/ivanturianytsia/tinygraphs/draw"
 )
 
 // SpaceInvaders builds a space invader svg image based on the 'key' and

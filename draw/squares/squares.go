@@ -7,7 +7,7 @@ import (
 	"math"
 
 	svg "github.com/ajstarks/svgo"
-	"github.com/taironas/tinygraphs/draw"
+	"github.com/ivanturianytsia/tinygraphs/draw"
 )
 
 //Grid builds an image with 6X6 quadrants of alternate colors.

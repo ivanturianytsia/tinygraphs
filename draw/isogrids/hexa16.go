@@ -6,7 +6,7 @@ import (
 	"io"
 
 	svg "github.com/ajstarks/svgo"
-	"github.com/taironas/tinygraphs/draw"
+	"github.com/ivanturianytsia/tinygraphs/draw"
 )
 
 // Hexa16 builds an image with lines x lines grids of half diagonals in the form of an hexagon

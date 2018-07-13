@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	tgColors "github.com/taironas/tinygraphs/colors"
+	tgColors "github.com/ivanturianytsia/tinygraphs/colors"
 )
 
 // Colors returns an array of colors based on a HTTP request.

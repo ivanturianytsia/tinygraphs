@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/taironas/tinygraphs/colors"
-	"github.com/taironas/tinygraphs/format"
+	"github.com/ivanturianytsia/tinygraphs/colors"
+	"github.com/ivanturianytsia/tinygraphs/format"
 )
 
 // Size returns the value of size param from HTTP request.

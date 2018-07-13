@@ -5,7 +5,7 @@ import (
 	"io"
 
 	svg "github.com/ajstarks/svgo"
-	"github.com/taironas/tinygraphs/draw"
+	"github.com/ivanturianytsia/tinygraphs/draw"
 )
 
 // Random builds an image with 10x10 grids of half diagonals with random background.

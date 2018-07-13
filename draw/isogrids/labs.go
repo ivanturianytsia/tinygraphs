@@ -6,7 +6,7 @@ import (
 	"io"
 
 	svg "github.com/ajstarks/svgo"
-	"github.com/taironas/tinygraphs/draw"
+	"github.com/ivanturianytsia/tinygraphs/draw"
 )
 
 // Diagonals builds an image with 10x10 grids of diagonals.

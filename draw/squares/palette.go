@@ -6,7 +6,7 @@ import (
 	"io"
 
 	svg "github.com/ajstarks/svgo"
-	"github.com/taironas/tinygraphs/draw"
+	"github.com/ivanturianytsia/tinygraphs/draw"
 )
 
 // Palette builds an JPEG image with all the colors present in the theme color array.

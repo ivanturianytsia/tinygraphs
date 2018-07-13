@@ -5,8 +5,8 @@ import (
 	"io"
 
 	svg "github.com/ajstarks/svgo"
-	"github.com/taironas/tinygraphs/colors"
-	"github.com/taironas/tinygraphs/draw"
+	"github.com/ivanturianytsia/tinygraphs/colors"
+	"github.com/ivanturianytsia/tinygraphs/draw"
 )
 
 // RandomGradientColorSVG builds a square image with with x colors selected at random for each quadrant.
